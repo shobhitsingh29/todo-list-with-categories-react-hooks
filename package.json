@@ -1,7 +1,7 @@
 {
   "name": "todo-app",
   "version": "0.1.0",
-  "homepage": "http://shobhitsingh29.github.io/todo-list-with-categories-react-hooks",
+  "homepage": "https://shobhitsingh29.github.io/todo-list-with-categories-react-hooks",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
