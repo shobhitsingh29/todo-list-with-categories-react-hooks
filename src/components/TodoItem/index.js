@@ -22,7 +22,8 @@ export const TodoItem = (props) => {
                 :
                 todo.description + ' ' + todo.category}
 
-            {<input type='text' ref={refer} onChange={handleOnchange}/>}
+            {<input style={{'width': '300px'}} placeholder='add new descrip`n here & hit->✍️️' type='text' ref={refer}
+                    onChange={handleOnchange}/>}
             {<span style={{'cursor': 'pointer'}}
                    onClick={() => editTodo(todo.id, refer.current)}>&nbsp; &nbsp; ✍️️ </span>}
             {<span style={{'cursor': 'pointer'}} onClick={() => deleteTodo(todo.id)}>&nbsp; &nbsp; 🗑️</span>}
